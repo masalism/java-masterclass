@@ -13,8 +13,17 @@ public class Main {
         System.out.println("Double min value: " + myMinDoubleValue);
         System.out.println("Double max value: " + myMaxDoubleValue);
 
-        int myIntValue = 5;
-        float myFloatValue =  5.25f;
-        double myDoubleValue = 5.654d;
+        int myIntValue = 5 / 3;
+        float myFloatValue =  5f / 3f;
+        double myDoubleValue = 5.00 / 3.00;
+
+        System.out.println("MyIntValue= " + myIntValue);
+        System.out.println("MyFloatValue= " + myFloatValue);
+        System.out.println("MyDoubleValue= " + myDoubleValue);
+
+        double pounds = 345.764d;
+        double poundsToKg = 0.45359237d;
+        double result = pounds * poundsToKg;
+        System.out.println(result);
     }
 }
